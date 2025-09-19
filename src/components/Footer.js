@@ -17,11 +17,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo & Description */}
           <div className="lg:col-span-2">
-            <img 
-              src="/assets/images/dk.jpg" 
-              alt="Mebelku Logo" 
-              className="h-12 sm:h-14 md:h-16 w-auto mb-4"
-            />
+            <div className="flex items-center mb-4">
+              <img 
+                src="/assets/images/dk.png" 
+                alt="Mebelku Logo" 
+                className="h-12 sm:h-14 md:h-16 w-auto mr-4"
+              />
+              <span className="text-lg sm:text-xl md:text-2xl font-bold tracking-wide text-white whitespace-nowrap">DeKa <span className="font-Bold">PROJECT FURNITURE</span></span>
+            </div>
             <p className="text-gray-300 mb-6 leading-relaxed max-w-md">
               Toko online furniture minimalis dan modern terpercaya di Indonesia. 
               Kami menyediakan produk berkualitas tinggi dengan desain timeless 

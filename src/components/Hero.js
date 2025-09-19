@@ -13,10 +13,17 @@ const Hero = () => {
     <section id="home" className="relative bg-white py-12 sm:py-16 md:py-20 lg:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
+          {/* Logo di atas headline */}
+          <img 
+            src="/assets/images/dk.png" 
+            alt="Logo Mebelku" 
+            className="mx-auto mb-4 sm:mb-6 w-32 h-auto"
+            style={{maxWidth: '160px'}}
+          />
           {/* Main Headline */}
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-black mb-4 sm:mb-6 leading-tight">
-            Furniture Minimalis Modern
-            <span className="block text-gray-600">untuk Rumah Anda</span>
+            Selamat Datang di TOKO KAMI
+            <span className="block text-gray-600">DeKa PROJECT FURNITURE</span>
           </h1>
           
           {/* Subtext */}

@@ -18,7 +18,7 @@ const Header = ({ onNavigate }) => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img 
-              src="/assets/images/dk.jpg" 
+              src="/assets/images/dk.png" 
               alt="Mebelku Logo" 
               className="h-12 sm:h-14 md:h-16 w-auto"
             />
